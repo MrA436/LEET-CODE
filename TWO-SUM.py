@@ -16,3 +16,5 @@ target= 4
 
 result = sol.twoSum(nums, target)
 print(result)
+
+# solved using brute force method
