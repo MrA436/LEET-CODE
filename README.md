@@ -1,3 +1,4 @@
 # LEET-CODE
 
-Contains all problems of leetcode i understood and submitted.
+Contains all Problems of LeetCode I Understood and Submitted.
+
