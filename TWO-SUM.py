@@ -1,20 +1,10 @@
 class Solution(object):
     def twoSum(self, nums, target):
-        for pos_x in range(len(nums)): 
-            # Iterating over every element in Nums list
-            for pos_y in range(pos_x+1, len(nums)): 
-                # For every element in Nums List , iterating over other Numbers except self. 
-                if nums[pos_x] + nums[pos_y] == target: 
-                    # if x + y == target
-                    return [pos_x, pos_y] 
-                    # return the position of Number x and y
-                    
-                    
-sol= Solution()
-nums=[1,5,7,3]
-target= 4
+        for i in range(len(nums)):# iterating every element
+            for j in range(i + 1, len(nums)):
+                if nums[i] + nums[j] == target: # adding the value of i and j to check if it equals to target
+                    return [i, j] # returning the value of i and j
 
-result = sol.twoSum(nums, target)
-print(result)
-
-# solved using brute force method
+''' 
+used my own logic this time
+'''
